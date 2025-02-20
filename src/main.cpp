@@ -1,9 +1,9 @@
 #include <Arduino.h>
 #include <ESP32Servo.h>
 
-#define PHOTORESISTOR_PIN 12
-#define LED_PIN 27
-#define SERVO_PIN 26
+#define PHOTORESISTOR_PIN GPIO_NUM_12
+#define LED_PIN GPIO_NUM_27
+#define SERVO_PIN GPIO_NUM_26
 
 uint16_t maxLightVal = 0;
 uint16_t minLightVal = 0xFFFF;
